@@ -12,7 +12,7 @@ Basically, Hogan enables you to keep your Mustache templates in plain source fil
 
 ##Installation
 
-[Download](https://github.com/adamstrickland/ko.template-engine.hogan/dist/) and include the template engine *after* Knockout and *before* your binding code.  The template engine installs itself into Knockout.
+[Download](https://raw.github.com/adamstrickland/ko.template-engine.hogan/master/dist/ko.template-engine.hogan-0.1.0.min.js) and include the template engine *after* Knockout and *before* your binding code.  The template engine installs itself into Knockout.
 
 ##Example
 
