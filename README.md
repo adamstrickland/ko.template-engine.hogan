@@ -65,7 +65,7 @@ Let's say you have a template at `$project_root/app/assets/templates/crewmembers
 HoganAssets (properly configured, of course), would compile the template and make it accessible to your javascript code as `HoganTemplates['crewmembers']`.  So now your Knockout view model goes from this:
 
 	self.templateCallback = function () {
-		return return Hogan.parse(Hogan.scan("<p>{{.}}</p>"));
+		return Hogan.parse(Hogan.scan("<p>{{.}}</p>"));
 	};
 
 to this:
